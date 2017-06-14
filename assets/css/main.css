@@ -42,7 +42,7 @@
 	height: 500px;
 }
 
-#values h1{
+.titulo{
 	font-weight: 900;
 	font-size: 400%;
 }
@@ -75,7 +75,7 @@
 	background: none;
 }
 
-#linea{
+.linea{
 	width: 15%;
 	height: 5px;
 	border-top: solid white 1px;
@@ -87,4 +87,23 @@
 
 .meet-content{
 	padding-top: 100px;
+}
+
+/* Fourth Section */
+#people{
+	background-color: #FBFBFB;
+}
+
+#linea{
+	border-color: #191919;
+}
+
+#people img{
+	width: 100%;
+	z-index: -100;
+	-webkit-filter: brightness(50%);
+   }
+
+#people img:hover {
+	-webkit-filter: brightness(100%); /* For IE8 and earlier */
 }
