@@ -55,3 +55,36 @@
 #cont-parrafos{
 	margin-top: 100px;
 }
+
+/* Third Section */
+#meet{
+	background-image: url(../img/bg-quote.jpg);
+	background-size: cover;
+	background-position: center;
+	-webkit-filter: saturate(140%);
+	height: 700px;
+	color: white;
+
+}
+
+#meet button{
+	border-style: solid white 2px;
+	border-radius: 0;
+	padding: 10px;
+	font-weight: bolder;
+	background: none;
+}
+
+#linea{
+	width: 15%;
+	height: 5px;
+	border-top: solid white 1px;
+	border-bottom: solid white 1px ;
+	margin-left: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.meet-content{
+	padding-top: 100px;
+}
