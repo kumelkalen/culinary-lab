@@ -8,12 +8,30 @@
 	background-image: url(../img/bg-header.jpg);
 	background-size: cover;
 	width: 100%;
-	height: 500px;
+	height: 700px;
 }
-
-#nav-bar{ /*Para que los elementos que son hijos de ul se posicionen*/
+/** Menú **/
+#enlaces{ /*Para que los elementos que son hijos de ul se posicionen*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 
+}
+
+#nav-bar{
+	position: fixed;
+	width: 100%;
+	padding: 30px;
+}
+
+#profile{
+	height: 100%;
+
+}
+
+#cont-prof{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
