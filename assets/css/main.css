@@ -35,3 +35,23 @@
 	align-items: center;
 	justify-content: center;
 }
+
+/* Second Section */
+#values{
+	width: 100%;
+	height: 500px;
+}
+
+#values h1{
+	font-weight: 900;
+	font-size: 400%;
+}
+
+#values p,li {
+	font-size: 150%;
+	font-weight: lighter;
+}
+
+#cont-parrafos{
+	margin-top: 100px;
+}
