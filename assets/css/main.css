@@ -96,10 +96,6 @@
 	align-items: center;
 }
 
-#linea{
-	border-color: #191919;
-}
-
 #people img{
 	width: 100%;
 	
@@ -108,4 +104,14 @@
 
 #people img:hover {
 	-webkit-filter: brightness(100%); /* For IE8 and earlier */
+}
+
+/* Fifth Section */
+
+#press h3{
+	font-weight: 900;
+}
+
+.black{
+	border-color: #939393;
 }
