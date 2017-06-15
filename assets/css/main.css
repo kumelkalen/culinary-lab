@@ -64,7 +64,6 @@
 	-webkit-filter: saturate(140%);
 	height: 700px;
 	color: white;
-
 }
 
 #meet button{
@@ -92,6 +91,9 @@
 /* Fourth Section */
 #people{
 	background-color: #FBFBFB;
+	height: 700px;
+	display: flex;
+	align-items: center;
 }
 
 #linea{
@@ -100,7 +102,7 @@
 
 #people img{
 	width: 100%;
-	z-index: -100;
+	
 	-webkit-filter: brightness(50%);
    }
 
