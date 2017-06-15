@@ -107,11 +107,37 @@
 }
 
 /* Fifth Section */
+#press div.row{
+	margin: 80px 0;
+}
 
-#press h3{
+.bolder{
 	font-weight: 900;
 }
 
 .black{
 	border-color: #939393;
+}
+
+/* Sixth Section */
+#subscribe{
+	background-color: #191919;
+	color: white;
+}
+
+#subscribe div.row{
+	margin: 80px;
+}
+
+.input-sub{
+	border-radius: 0;
+	height: 50px;
+    font-size: 20px;
+}
+
+.input-group-addon {
+	font-weight: 900;
+	background-color: #E0D1B2;
+	color:white;
+	font-size: medium;
 }
